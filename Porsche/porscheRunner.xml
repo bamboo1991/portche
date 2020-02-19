@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Porsche Test">
+
+    <test name="Porsche automation">
+        <parameter name="DriverName" value="chrome"></parameter>
+        <classes>
+            <class name="porscheProject.TestClass"></class>
+        </classes>
+
+    </test>
+</suite>
